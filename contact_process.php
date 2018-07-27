@@ -15,7 +15,7 @@
     $subject = "You have a message from your Devika.";
 
     $logo = 'https://blackindian.tk/images/logo.png';
-    $link = '#';
+    $link = '<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"94c55eb3701113ae3b0420399","lid":"9c05eaca3f"}) })</script>';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Devika Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
